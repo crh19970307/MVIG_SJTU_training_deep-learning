@@ -47,6 +47,11 @@ YOLO9000 is a real-time framework for detection more than 9000 object categories
 ####[Learn to track](https://github.com/yuxng/MDP_Tracking)
 ###Object Segmentation
 ####[Instance-aware](https://github.com/daijifeng001/MNC)
+![image](/src/111.jpg)
+Multi-task Network Cascades for instance-aware semantic segmentation. At the top right corner is a simplified illustration.
+
+In our MNC model, the network takes an image of arbitrary size as the input, and outputs instance-aware semantic segmentation results. The cascade has three stages: proposing box-level instances, regressing mask-level instances, and categorizing each instance.
+
 ###Scene Parsing
 ####[Pyramid-Parsing](https://github.com/hszhao/PSPNet)
 
