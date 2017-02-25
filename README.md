@@ -56,3 +56,7 @@ In our MNC model, the network takes an image of arbitrary size as the input, and
 ####[Pyramid-Parsing](https://github.com/hszhao/PSPNet)
 
 ##Hourglass Model
+Architecture of hourglass model
+![image](/src/234567.jpg)
+An illustration of a single hourglass module. Each box in the gure corresponds to a residual network block. The number of features is consistent across the whole hourglass.
+
