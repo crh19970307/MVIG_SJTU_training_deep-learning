@@ -13,6 +13,8 @@ I find videos on the youtube. The page of cs231n in cs231n.github.io has been re
 ##Five topics
 ###Object Detection
 ####[Faster RCNN](https://github.com/rbgirshick/py-faster-rcnn)
+Faster R-CNN, is composed of two modules. The first module is a deep fully convolutional network that proposes regions, and the second module is the Fast R-CNN detector that uses the proposed regions.
+![image](https://camo.githubusercontent.com/60e17201986ba4655487199ce370292a0820e2da/687474703a2f2f696d672e626c6f672e6373646e2e6e65742f3230313630343134313634353336303239)
 ####[Yolo9000](http://pjreddie.com/darknet/yolo/)
 ###Pose Estimation
 ####[RMPE](https://cvsjtu.wordpress.com/rmpe-regional-multi-person-pose-estimation/)
