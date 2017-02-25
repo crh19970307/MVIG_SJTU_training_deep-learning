@@ -20,13 +20,9 @@ The idea of faster RCNN is from RCNN and fast RCNN as the figure shows.
 Faster R-CNN, is composed of two modules. The first module is a deep fully convolutional network that proposes regions, and the second module is the Fast R-CNN detector that uses the proposed regions.
 
 The process of training consists of 4 steps.
-
 1.Train the RPN.
-
 2.Train a separate detection network by Fast R-CNN
-
 3.Use the detector network to initialize RPN training, but fix the shared convolutional layers and only fine-tune the layers unique to RPN.
-
 4.Keeping the shared convolutional layers fixed, fine-tune the unique layers of Fast R-CNN.
 
 ####[Yolo9000](http://pjreddie.com/darknet/yolo/)
