@@ -20,12 +20,19 @@ The idea of faster RCNN is from RCNN and fast RCNN as the figure shows.
 Faster R-CNN, is composed of two modules. The first module is a deep fully convolutional network that proposes regions, and the second module is the Fast R-CNN detector that uses the proposed regions.
 
 The process of training consists of 4 steps.
+
 1.Train the RPN.
+
 2.Train a separate detection network by Fast R-CNN
+
 3.Use the detector network to initialize RPN training, but fix the shared convolutional layers and only fine-tune the layers unique to RPN.
+
 4.Keeping the shared convolutional layers fixed, fine-tune the unique layers of Fast R-CNN.
 
 ####[Yolo9000](http://pjreddie.com/darknet/yolo/)
+Better Faster Stronger
+
+YOLO9000 is a real-time framework for detection more than 9000 object categories by jointly optimizing detection and classification. We use WordTree to combine data from various sources and our joint optimization technique to train simultaneously on ImageNet and COCO. YOLO9000 is a strong step towards closing the dataset size gap between detection and classification.
 ###Pose Estimation
 ####[RMPE](https://cvsjtu.wordpress.com/rmpe-regional-multi-person-pose-estimation/)
 ####[Cao et al](https://github.com/ZheC/Realtime_Multi-Person_Pose_Estimation)
