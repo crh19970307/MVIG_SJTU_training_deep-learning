@@ -13,3 +13,15 @@ I find videos on the youtube. The page of cs231n in cs231n.github.io has been re
 ##Five topics
 ###Object Detection
 ####[Faster RCNN](https://github.com/rbgirshick/py-faster-rcnn)
+####[Yolo9000](http://pjreddie.com/darknet/yolo/)
+###Pose Estimation
+####[RMPE](https://cvsjtu.wordpress.com/rmpe-regional-multi-person-pose-estimation/)
+####[Cao et al](https://github.com/ZheC/Realtime_Multi-Person_Pose_Estimation)
+###Multi-object tracking
+####[Learn to track](https://github.com/yuxng/MDP_Tracking)
+###Object Segmentation
+####[Instance-aware](https://github.com/daijifeng001/MNC)
+###Scene Parsing
+####[Pyramid-Parsing](https://github.com/hszhao/PSPNet)
+
+##Hourglass Model
